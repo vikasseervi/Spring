@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="MavenProjectsManager">
@@ -6,6 +7,7 @@
         <option value="$PROJECT_DIR$/mycoolapp/pom.xml" />
         <option value="$PROJECT_DIR$/springcoredemo/pom.xml" />
         <option value="$PROJECT_DIR$/crudemo/pom.xml" />
+        <option value="$PROJECT_DIR$/rest-crud/pom.xml" />
       </list>
     </option>
   </component>

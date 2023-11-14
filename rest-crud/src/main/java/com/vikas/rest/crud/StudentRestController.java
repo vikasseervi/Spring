@@ -36,6 +36,7 @@ public class StudentRestController {
         return list.get(studentId);
     }
 
+    // below code is moved to StudentRestExceptionHandler Class
     /*
 
     // Add an Exception Handler using @ExceptionHandler
@@ -57,5 +58,4 @@ public class StudentRestController {
     }
 
      */
-    // Moved to StudentRestExceptionHandler ClassC//
 }

@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="cruddemo" />
         <module name="rest-crud" />
+        <module name="rest-project" />
         <module name="springcoredemo" />
         <module name="mycoolapp" />
       </profile>
@@ -21,6 +22,7 @@
       <module name="cruddemo" options="-parameters" />
       <module name="mycoolapp" options="-parameters" />
       <module name="rest-crud" options="-parameters" />
+      <module name="rest-project" options="-parameters" />
       <module name="springcoredemo" options="-parameters" />
     </option>
   </component>

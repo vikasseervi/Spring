@@ -1,12 +1,13 @@
-package com.vikas;
+package com.vikas.rest.project;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class RestCrudApplication {
+public class RestProjectApplication {
+
 	public static void main(String[] args) {
-		SpringApplication.run(RestCrudApplication.class, args);
+		SpringApplication.run(RestProjectApplication.class, args);
 	}
 
 }

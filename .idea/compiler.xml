@@ -6,23 +6,31 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="cruddemo" />
         <module name="rest-crud" />
+        <module name="crud-demo" />
         <module name="rest-project" />
         <module name="springcoredemo" />
+        <module name="rest-security-employee" />
         <module name="mycoolapp" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="cruddemo" target="17" />
+      <module name="cruddemo (1) (com.vikas)" target="21" />
+      <module name="cruddemo (2) (com.luv2code.springboot)" target="17" />
       <module name="crudemo" target="21" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="crud-demo" options="-parameters" />
       <module name="cruddemo" options="-parameters" />
+      <module name="cruddemo (1) (com.vikas)" options="-parameters" />
+      <module name="cruddemo (2) (com.luv2code.springboot)" options="-parameters" />
       <module name="mycoolapp" options="-parameters" />
       <module name="rest-crud" options="-parameters" />
       <module name="rest-project" options="-parameters" />
+      <module name="rest-security-employee" options="-parameters" />
       <module name="springcoredemo" options="-parameters" />
     </option>
   </component>

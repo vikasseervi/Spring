@@ -17,11 +17,15 @@
 		<java.version>21</java.version>
 	</properties>
 	<dependencies>
-
-		 <!-- Add dependency for Spring Data REST -->
+		<!-- Add dependency for Spring Data REST -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-rest</artifactId>
+		</dependency>
+		<!-- Add dependency for Spring Security-->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>

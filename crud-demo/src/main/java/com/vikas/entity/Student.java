@@ -1,4 +1,4 @@
-package com.vikas.cruddemo.entity;
+package com.vikas.entity;
 
 import jakarta.persistence.*;
 

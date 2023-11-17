@@ -1,6 +1,6 @@
-package com.vikas.cruddemo.dao;
+package com.vikas.dao;
 
-import com.vikas.cruddemo.entity.Student;
+import com.vikas.entity.Student;
 
 import java.util.List;
 

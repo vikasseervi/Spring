@@ -1,7 +1,6 @@
-package com.vikas.cruddemo.dao;
+package com.vikas.dao;
 
-import com.vikas.cruddemo.entity.Student;
-import jakarta.persistence.Entity;
+import com.vikas.entity.Student;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.TypedQuery;
 import org.springframework.beans.factory.annotation.Autowired;

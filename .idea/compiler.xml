@@ -6,19 +6,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="cruddemo" />
         <module name="rest-crud" />
+        <module name="crud-demo" />
         <module name="rest-project" />
         <module name="springcoredemo" />
         <module name="mycoolapp" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="cruddemo" target="21" />
       <module name="crudemo" target="21" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="crud-demo" options="-parameters" />
       <module name="cruddemo" options="-parameters" />
       <module name="mycoolapp" options="-parameters" />
       <module name="rest-crud" options="-parameters" />

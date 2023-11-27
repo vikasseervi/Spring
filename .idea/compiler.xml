@@ -9,7 +9,6 @@
         <module name="rest-crud" />
         <module name="crud-demo" />
         <module name="rest-project" />
-        <module name="thymleaf" />
         <module name="springcoredemo" />
         <module name="mycoolapp" />
       </profile>
@@ -27,7 +26,6 @@
       <module name="rest-crud" options="-parameters" />
       <module name="rest-project" options="-parameters" />
       <module name="springcoredemo" options="-parameters" />
-      <module name="thymleaf" options="-parameters" />
     </option>
   </component>
 </project>

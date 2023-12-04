@@ -18,6 +18,7 @@
         <option value="$PROJECT_DIR$/rest-security-employee/pom.xml" />
         <option value="$PROJECT_DIR$/demo-security/pom.xml" />
         <option value="$PROJECT_DIR$/demo-security-mvc/pom.xml" />
+        <option value="$PROJECT_DIR$/mvc-security-employee/pom.xml" />
       </list>
     </option>
   </component>

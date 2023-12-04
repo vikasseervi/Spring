@@ -1,6 +1,6 @@
-package com.rest.mvc.project.dao;
+package com.vikas.rest.project.dao;
 
-import com.rest.mvc.project.entity.Employee;
+import com.vikas.rest.project.entity.Employee;
 
 import java.util.List;
 

@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="rest-crud" />
         <module name="crud-demo" />
+        <module name="mvc-security-employee" />
         <module name="thymleaf" />
         <module name="rest-project" />
         <module name="mvc-project-thymeleaf" />
@@ -20,6 +21,7 @@
     <bytecodeTargetLevel>
       <module name="cruddemo" target="21" />
       <module name="crudemo" target="21" />
+      <module name="demo-security" target="21" />
       <module name="rest-project (1)" target="21" />
       <module name="rest-project (2)" target="21" />
     </bytecodeTargetLevel>
@@ -28,7 +30,9 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="crud-demo" options="-parameters" />
       <module name="cruddemo" options="-parameters" />
+      <module name="demo-security" options="-parameters" />
       <module name="mvc-project-thymeleaf" options="-parameters" />
+      <module name="mvc-security-employee" options="-parameters" />
       <module name="mycoolapp" options="-parameters" />
       <module name="rest-crud" options="-parameters" />
       <module name="rest-project" options="-parameters" />

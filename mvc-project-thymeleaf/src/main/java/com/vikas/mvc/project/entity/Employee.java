@@ -1,4 +1,4 @@
-package com.rest.mvc.project.entity;
+package com.vikas.mvc.project.entity;
 
 import jakarta.persistence.*;
 

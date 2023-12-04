@@ -1,6 +1,6 @@
-package com.rest.mvc.project.dao;
+package com.vikas.rest.project.dao;
 
-import com.rest.mvc.project.entity.Employee;
+import com.vikas.rest.project.entity.Employee;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.TypedQuery;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -9,7 +9,7 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 
 @Repository
-public class EmployeeDAOJpaImple implements EmployeeDAO{
+public class EmployeeDAOJpaImple implements EmployeeDAO {
     private EntityManager entityManager;
     @Autowired
     public EmployeeDAOJpaImple(EntityManager entityManager){

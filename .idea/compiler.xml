@@ -8,8 +8,9 @@
         <outputRelativeToContentRoot value="true" />
         <module name="rest-crud" />
         <module name="crud-demo" />
-        <module name="rest-project" />
         <module name="thymleaf" />
+        <module name="rest-project" />
+        <module name="mvc-project-thymeleaf" />
         <module name="springcoredemo" />
         <module name="validation" />
         <module name="mycoolapp" />
@@ -18,15 +19,20 @@
     <bytecodeTargetLevel>
       <module name="cruddemo" target="21" />
       <module name="crudemo" target="21" />
+      <module name="rest-project (1)" target="21" />
+      <module name="rest-project (2)" target="21" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="crud-demo" options="-parameters" />
       <module name="cruddemo" options="-parameters" />
+      <module name="mvc-project-thymeleaf" options="-parameters" />
       <module name="mycoolapp" options="-parameters" />
       <module name="rest-crud" options="-parameters" />
       <module name="rest-project" options="-parameters" />
+      <module name="rest-project (1)" options="-parameters" />
+      <module name="rest-project (2)" options="-parameters" />
       <module name="springcoredemo" options="-parameters" />
       <module name="thymleaf" options="-parameters" />
       <module name="validation" options="-parameters" />

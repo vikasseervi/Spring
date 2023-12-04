@@ -1,7 +1,6 @@
-package com.vikas.rest.project.dao;
+package com.rest.mvc.project.dao;
 
-import com.vikas.rest.project.entity.Employee;
-import jakarta.persistence.Entity;
+import com.rest.mvc.project.entity.Employee;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.TypedQuery;
 import org.springframework.beans.factory.annotation.Autowired;

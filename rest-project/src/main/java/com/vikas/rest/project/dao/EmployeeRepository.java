@@ -1,6 +1,6 @@
-package com.vikas.rest.project.dao;
+package com.rest.mvc.project.dao;
 
-import com.vikas.rest.project.entity.Employee;
+import com.rest.mvc.project.entity.Employee;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 
